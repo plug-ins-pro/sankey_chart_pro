@@ -1,0 +1,53 @@
+{
+    "name": "Sankey Chart Pro",
+    "version": "25.1",
+    "description": "United Codes Sankey Chart Pro: Sankey Chart Pro is a robust and user-friendly plug-in for visualizing flows and relationships using interactive Sankey diagrams in Oracle APEX.",
+    "keywords": [
+        "APEX",
+        "Sankey",
+        "Chart",
+        "Graph"
+    ],
+    "homepage": "https://www.united-codes.com/products/plug-ins-pro/",
+    "bugs": {
+        "url": "https://github.com/plug-ins-pro/sankey_chart_pro/issues",
+        "email": "support@plug-ins-pro.com"
+    },
+    "license": "Commercial",
+    "commercial": "Yes",
+    "author": {
+        "name": "United Codes",
+        "email": "info@plug-ins-pro.com",
+        "url": "https://www.united-codes.com/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/plug-ins-pro/sankey_chart_pro"
+    },
+    "oracle": {
+        "versions": [
+            "19.x",
+            "21.x"
+        ],
+        "apex": {
+            "versions": [
+                "19.2.0",
+                "20.1.0",
+                "20.2.0",
+                "21.1.0",
+                "21.2.0",
+                "22.1.0",
+                "22.2.0",
+                "23.1.0",
+                "23.2.0",
+                "24.1.0"
+            ],
+            "plugin": {
+                "internalName": "UNITEDCODES_SANKEY_CHART_PRO",
+                "type": "region",
+                "demo": "https://www.united-codes.com/ords/pip/r/sankey_chart_pro",
+                "previewImage": "https://www.united-codes.com/ords/pip/r/sankey_chart_pro/files/static/v114/demo.gif"
+            }
+        }
+    }
+}
